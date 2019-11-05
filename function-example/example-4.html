@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Outer Variable </title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		
+		let username = " Akshay "
+
+		function xyz(){
+			let username = " Abhijit "
+
+			message = username + "Jachak" ;
+
+			alert(message);
+
+		}
+
+		xyz(); // Abhijit Jachak 
+
+		alert(username); // Akshay 
+
+		alert(username); // Akshay 
+
+	</script>
+
+</body>
+</html>
