@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Swap two Number</title>
+</head>
+<body>
+	<script type="text/javascript">
+		
+		var a,b,c;
+
+		function swap(){
+			a = Number(document.getElementById('first').value);
+			b = Number(document.getElementById('second').value);
+			c = a;
+			a = b;
+			b = c;
+
+			document.getElementById('answer1').value = a;
+			document.getElementById('answer2').value = b;
+		}
+	</script>
+
+	<label> Enter The first Number </label>
+	<input id="first">
+
+	<label>Enter The seonde Number </label>
+	<input id="second">
+
+	<br/>
+
+	<button onclick="swap()">
+		Swap
+	</button>
+
+	<input id="answer1" >
+
+	<input id="answer2">
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Odd Even Number</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		
+		function odd_even(){
+			var number;
+
+			number = (document.getElementById('number_input').value);
+
+			if( number%2==0 ){
+				alert("Even Number");
+			}
+			else{
+				alert("Odd Number")
+			}
+		}
+
+	</script>
+
+	<label>Enter the number</label>
+	<input type="text" name="Number" id="number_input">
+	
+	<button onclick="odd_even()">Click</button> 
+	
+	<!-- 
+		<script type="text/javascript">
+			
+			function even(){
+
+			let = 10;
+
+
+				if (10%2==0) {
+					alert("This is Even Number");
+				}
+				else{
+					alert("This is odd number");
+				}
+
+
+			}	
+			even();
+		</script>
+	 -->
+</body>
+</html>
