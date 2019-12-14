@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>	Factorial Number </title>
+</head>
+<body>
+		<h1> Factorial Number </h1>
+
+		<script>
+			
+			function factorial(){
+				
+			   var i,no, fact;
+			   fact = 1;
+
+			   no = Number(document.getElementById('Num').value);
+
+			   for(i=1; i<=no; i++)
+			   {
+			   	fact = fact * i;
+			   }
+			   alert(fact);
+			}
+
+		</script>
+
+		<label>
+			Enter the Number
+		</label>
+		<input type="" id="Num">
+
+		<button onclick="factorial()">
+			click
+		</button>
+
+</body>	
+</html>
